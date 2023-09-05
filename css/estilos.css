@@ -64,6 +64,8 @@ font-family: 'Futura Std', sans-serif; font-size: 13px ;
   justify-content: center; /* Centra horizontalmente los elementos */
   align-items: center; /* Centra verticalmente los elementos (opcional) */
 width: 100%;
+margin:0;
+padding: 0 
 
 }
 
@@ -183,6 +185,7 @@ p{
 }
 .dos_mapas_celular{
   display:none ;
+  
 }
           
 /* When it's less than 700 pixels wide, do normal scrollytelling */
@@ -244,6 +247,8 @@ p{
 }
  .dos_mapas_celular{
 display: block;  
+margin:0;
+padding: 0
 }
 #centrarmenu a{
   margin-left: -60px;
