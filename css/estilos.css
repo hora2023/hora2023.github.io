@@ -1,3 +1,4 @@
+/* Fuentes*/
 
 
 
@@ -53,14 +54,9 @@ padding: 0
 width: 100%;
 background-color: #383634;
 color: white;
-font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 20; line-height: 22px;
-
+font-family: 'Futura Std', sans-serif; font-size: 13px ; 
 }
-.pie span{
- color:white; 
- font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 20; line-height: 22px;
 
-}
 
 .dos_mapas {
   display: flex;
@@ -71,19 +67,20 @@ width: 100%;
 }
 
 .intertitulo{
-font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 34px;
-color: #1d1d1b  
+  font-family: 'Futura Std', sans-serif;
+  color: #1d1d1b  
 }
 
 p{
-font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 20; line-height: 22px;
-text-align: justify;
+  font-family: 'Futura Std', sans-serif; font-size: 18px ; line-height:28px ;
+                                                
+  text-align: justify;
 }
 
 .topnav {
   background-color: #383634;
   overflow: hidden;
- font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 27px;
+  font-family: 'Futura Std', sans-serif;
   z-index:1;
   position:fixed;
   width:100%;
@@ -232,7 +229,7 @@ text-align: justify;
   }
   .intertitulo{
           font: size 1.5em;
-          line-height: 2em;
+          line-height: 2.5em;
          margin-left:20px ; 
          margin-right: 10px;
       }
