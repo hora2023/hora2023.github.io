@@ -1,7 +1,11 @@
+
+
+
+
 /* Inicio Footer*/
 
 .footer{
-  background-color: #e40520;
+  background-color: #383634;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -23,7 +27,7 @@
  }
 
 .hora img{width: 50%;}
-.pais img{width: 50%;}
+.pais img{width: 70%;}
 .escuela img{width: 35%}
 
 /* Fin Footer*/
@@ -45,6 +49,18 @@ padding: 0
   left: 0;
   
 }
+.pie{
+width: 100%;
+background-color: #383634;
+color: white;
+font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 20; line-height: 22px;
+
+}
+.pie span{
+ color:white; 
+ font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 20; line-height: 22px;
+
+}
 
 .dos_mapas {
   display: flex;
@@ -55,7 +71,7 @@ width: 100%;
 }
 
 .intertitulo{
-font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 27px;
+font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 34px;
 color: #1d1d1b  
 }
 
@@ -65,7 +81,7 @@ text-align: justify;
 }
 
 .topnav {
-  background-color: #e40520;
+  background-color: #383634;
   overflow: hidden;
  font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 27px;
   z-index:1;
@@ -136,7 +152,7 @@ text-align: justify;
 .topnav a {
   float:left;
   display: block;
-  color: #090D0A;
+  color: white;
   text-align: left;
   padding: 11px 14px;
   text-decoration: none;
@@ -149,8 +165,8 @@ text-align: justify;
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #8C0F0F;
-  color: white;
+  background-color: e40520;
+  color: black;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -236,7 +252,7 @@ display: block;
 }
 
 .hora img{width: 80%;}
-.pais img{width: 80%;}
+.pais img{width: 110%;}
 .escuela img{width: 65%}
 
 .topnav.responsive { 
