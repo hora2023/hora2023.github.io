@@ -1,4 +1,10 @@
-/* Fuentes*/
+.creditos{ 
+  text-align: center;
+  margin: 0;
+  left: 0;
+  font-family: 'Futura Std', sans-serif; font-size: 18px ; line-height:32px ;
+
+}
 
 
 
@@ -12,11 +18,18 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
- 
+
  
   
 }
+.texto_footer {
+  color: #eee;
+  font-family: 'Futura Std', sans-serif; font-size: 18px ; line-height:28px ;
+  flex-direction: column; /* Alinea los contenidos verticalmente */
+ align-items: center; /* Alinea los contenidos horizontalmente */
+ text-align: center; /* Alinea el texto horizontalmente (opcional) */
 
+}
 .col{
   flex-basis:0 ;
   flex-grow: 1;
@@ -26,6 +39,7 @@
  align-items: center; /* Alinea los contenidos horizontalmente */
  text-align: center; /* Alinea el texto horizontalmente (opcional) */
  }
+
 
 .hora img{width: 50%;}
 .pais img{width: 70%;}
