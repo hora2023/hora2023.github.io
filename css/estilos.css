@@ -258,12 +258,18 @@ p{
   }
 .dos_mapas{
   display: none;
+ 
 }
  .dos_mapas_celular{
 display: block;  
-margin:0;
-padding: 0
+padding-left: 8px;
+padding-right: 8px}
+
+.un_mapa_celular{
+  padding-left: 8px;
+padding-right: 8px
 }
+
 #centrarmenu a{
   margin-left: -60px;
 }
@@ -278,8 +284,9 @@ padding: 0
     right: 0; /* Lo coloca en la esquina superior derecha */}
   .topnav.responsive a.icon {
     position: absolute;
-    right: 0;
     top: 0;
+    right: 0;
+    
   }
   .topnav.responsive a {
     float: none;
