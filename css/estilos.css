@@ -5,7 +5,9 @@
   font-family: 'Futura Std', sans-serif; font-size: 18px ; line-height:32px ;
 
 }
-
+#video{
+  flex-direction: column; /* Alinea los contenidos verticalmente */
+}
 
 
 
