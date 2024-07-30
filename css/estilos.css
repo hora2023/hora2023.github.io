@@ -1,8 +1,11 @@
+
+
+
 .creditos{ 
   text-align: center;
   margin: 0;
   left: 0;
-  font-family: 'Futura Std', sans-serif; font-size: 18px ; line-height:32px ;
+  font-family: "Open Sans", sans-serif; font-size: 18px ; line-height:32px ;
 
 }
 #video{
@@ -14,7 +17,7 @@
 /* Inicio Footer*/
 
 .footer{
-  background-color: #383634;
+  background-color: #157E37;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -26,7 +29,7 @@
 }
 .texto_footer {
   color: #eee;
-  font-family: 'Futura Std', sans-serif; font-size: 18px ; line-height:28px ;
+  font-family: 'Open Sans', sans-serif; font-size: 18px ; line-height:28px ;
   flex-direction: column; /* Alinea los contenidos verticalmente */
  align-items: center; /* Alinea los contenidos horizontalmente */
  text-align: center; /* Alinea el texto horizontalmente (opcional) */
@@ -71,7 +74,7 @@ padding: 0
 width: 100%;
 background-color: #383634;
 color: white;
-font-family: 'Futura Std', sans-serif; font-size: 13px ; 
+font-family: "Open Sans", sans-serif; font-size: 13px ; 
 }
 
 
@@ -86,31 +89,34 @@ padding:70px
 }
 
 .intertitulo{
-  font-family: 'Futura Std', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #1d1d1b  
 }
 
+
+
+
 p{
-  font-family: 'Futura Std', sans-serif; font-size: 18px ; line-height:28px ;
-                                                
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;                                       
   text-align: justify;
 }
 
 .topnav {
-  background-color: #383634;
+  background-color: #157E37;
   overflow: hidden;
-  font-family: 'Futura Std', sans-serif;
+  font-family: "Open Sans", sans-serif;
   z-index:1;
   position:fixed;
   width:100%;
   top:0;
-  left:0
+  left:0  
 }
 
 #centrarmenu{
   width: 100%;
   max-width: 1300px;
-  margin-left: 60px ;
+  margin-left: 120px ;
 }
 
 #centrarmenu a{
@@ -130,7 +136,7 @@ p{
 }
 
 .sticky-thing {
-  position: -webkit-sticky;
+  position:-webkit-sticky;
   position: sticky;
   left: 0;
   width: 100%;
@@ -172,7 +178,7 @@ p{
   text-align: left;
   padding: 11px 14px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
   
 }
 
@@ -181,8 +187,8 @@ p{
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: rgb(175, 175, 175) ;
-  color:#383634;
+  background-color: #BFD9C5 ;
+  color:#157E37;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -280,9 +286,9 @@ padding-right: 8px
   margin-left: -60px;
 }
 
-.hora img{width: 80%;}
-.pais img{width: 110%;}
-.escuela img{width: 65%}
+
+.pais img{width: 110%}
+
 
 .topnav.responsive { 
     position: fixed; /* Fija el menú en su lugar */
